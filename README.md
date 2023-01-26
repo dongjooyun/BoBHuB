@@ -30,7 +30,6 @@
     -   [멤버별 Responsibility](#멤버별-responsibility)
 -   [5️. 실행 방법](#5️⃣-실행-방법)
 -   [6️. Version](#6️⃣-version)
--   [7️. 협업 Tools](#7️⃣-협업-tools)
 
 ## 1️⃣ 서비스 개요
 
@@ -64,7 +63,8 @@
 ### 🔗 서비스 도메인
 
 http://kdt-sw3-team17.elicecoding.com/ <br>
-<img src="https://user-images.githubusercontent.com/47781507/210108289-aff149fe-9253-4bbc-a3c8-7c3c90d0aaba.png" alt="BoBHuB_QRcode" width="250">
+
+> ⚠ 서버가 내려간 상태입니다.(AWS 재배포 예정)
 
 ### 👥 테스트 계정
 
@@ -143,7 +143,7 @@ http://kdt-sw3-team17.elicecoding.com/ <br>
 
 -   일대다 채팅서비스 구현: Socket.io를 활용한 실시간 통신 구현
 
-### 📌 인프라 구조도(개선 예정)
+### 📌 인프라 구조도
 
 <img src="https://user-images.githubusercontent.com/47781507/210818112-3fb090d8-2ae4-4217-8c81-296b1541517e.png" alt="Infrastructure" width="700">
 
@@ -151,7 +151,7 @@ http://kdt-sw3-team17.elicecoding.com/ <br>
 
 <img src="https://user-images.githubusercontent.com/47781507/210013366-b0afb69c-0ab1-4629-80f1-dc6b495f9b70.png" alt="ERD" width="700">
 
-### 🔗 API 문서(Notion)
+### 🔗 API 문서
 
 https://giant-painter-76a.notion.site/api-8a9d3abf185e40b78a0871db3ee334f9
 
@@ -244,6 +244,7 @@ EC2_MYSQL_HOST = <ec2 storage URL>
 S3_BUCKET_NAME = <계정>
 S3_ACCESS_KEY_ID = <ID>
 S3_ACCESS_KEY_PASSWORD = <비밀번호>
+
 #NodeMailer
 MAIL_ID = <google developer 아이디>
 MAIL_PASSWORD = <google developer 비밀번호>
@@ -252,9 +253,3 @@ MAIL_PASSWORD = <google developer 비밀번호>
 ## 6️⃣ Version
 
 -   1.0.0
-
-## 7️⃣ 협업 Tools
-
-🔗 [Jira Roadmap](https://17171717.atlassian.net/jira/software/projects/UW17/boards/1/roadmap)
-
-🔗 [Notion](https://www.notion.so/elice/4497050a9ede481ea2481923ef4d5a4f)
